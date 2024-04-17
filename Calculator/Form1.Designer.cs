@@ -76,6 +76,7 @@
             subtract.TabIndex = 2;
             subtract.Text = "-";
             subtract.UseVisualStyleBackColor = true;
+            subtract.Click += subtract_Click_1;
             // 
             // multiply
             // 
@@ -86,6 +87,7 @@
             multiply.TabIndex = 2;
             multiply.Text = "X";
             multiply.UseVisualStyleBackColor = true;
+            multiply.Click += multiply_Click;
             // 
             // divide
             // 
@@ -96,6 +98,7 @@
             divide.TabIndex = 2;
             divide.Text = "/";
             divide.UseVisualStyleBackColor = true;
+            divide.Click += divide_Click;
             // 
             // result
             // 
