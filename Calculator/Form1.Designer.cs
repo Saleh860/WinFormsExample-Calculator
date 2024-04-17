@@ -28,130 +28,143 @@
         /// </summary>
         private void InitializeComponent()
         {
-            first = new TextBox();
-            second = new TextBox();
-            add = new Button();
-            subtract = new Button();
-            multiply = new Button();
-            divide = new Button();
-            result = new Label();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            SuspendLayout();
+            this.first = new System.Windows.Forms.TextBox();
+            this.second = new System.Windows.Forms.TextBox();
+            this.add = new System.Windows.Forms.Button();
+            this.subtract = new System.Windows.Forms.Button();
+            this.multiply = new System.Windows.Forms.Button();
+            this.divide = new System.Windows.Forms.Button();
+            this.result = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // first
             // 
-            first.Font = new Font("Segoe UI", 14F);
-            first.Location = new Point(96, 21);
-            first.Name = "first";
-            first.Size = new Size(100, 32);
-            first.TabIndex = 0;
+            this.first.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.first.Location = new System.Drawing.Point(110, 28);
+            this.first.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.first.Name = "first";
+            this.first.Size = new System.Drawing.Size(171, 39);
+            this.first.TabIndex = 0;
             // 
             // second
             // 
-            second.Font = new Font("Segoe UI", 14F);
-            second.Location = new Point(96, 70);
-            second.Name = "second";
-            second.Size = new Size(100, 32);
-            second.TabIndex = 1;
+            this.second.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.second.Location = new System.Drawing.Point(110, 93);
+            this.second.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.second.Name = "second";
+            this.second.Size = new System.Drawing.Size(171, 39);
+            this.second.TabIndex = 1;
             // 
             // add
             // 
-            add.Font = new Font("Segoe UI", 14F);
-            add.Location = new Point(96, 122);
-            add.Name = "add";
-            add.Size = new Size(36, 33);
-            add.TabIndex = 2;
-            add.Text = "+";
-            add.UseVisualStyleBackColor = true;
-            add.Click += add_Click;
+            this.add.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.add.Location = new System.Drawing.Point(110, 163);
+            this.add.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.add.Name = "add";
+            this.add.Size = new System.Drawing.Size(41, 44);
+            this.add.TabIndex = 2;
+            this.add.Text = "+";
+            this.add.UseVisualStyleBackColor = true;
+            this.add.Click += new System.EventHandler(this.add_Click);
             // 
             // subtract
             // 
-            subtract.Font = new Font("Segoe UI", 14F);
-            subtract.Location = new Point(160, 122);
-            subtract.Name = "subtract";
-            subtract.Size = new Size(36, 33);
-            subtract.TabIndex = 2;
-            subtract.Text = "-";
-            subtract.UseVisualStyleBackColor = true;
+            this.subtract.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.subtract.Location = new System.Drawing.Point(213, 163);
+            this.subtract.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.subtract.Name = "subtract";
+            this.subtract.Size = new System.Drawing.Size(41, 44);
+            this.subtract.TabIndex = 2;
+            this.subtract.Text = "-";
+            this.subtract.UseVisualStyleBackColor = true;
+            this.subtract.Click += new System.EventHandler(this.subtract_Click);
             // 
             // multiply
             // 
-            multiply.Font = new Font("Segoe UI", 14F);
-            multiply.Location = new Point(96, 180);
-            multiply.Name = "multiply";
-            multiply.Size = new Size(36, 33);
-            multiply.TabIndex = 2;
-            multiply.Text = "X";
-            multiply.UseVisualStyleBackColor = true;
+            this.multiply.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.multiply.Location = new System.Drawing.Point(110, 240);
+            this.multiply.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.multiply.Name = "multiply";
+            this.multiply.Size = new System.Drawing.Size(41, 44);
+            this.multiply.TabIndex = 2;
+            this.multiply.Text = "X";
+            this.multiply.UseVisualStyleBackColor = true;
+            this.multiply.Click += new System.EventHandler(this.multiply_Click);
             // 
             // divide
             // 
-            divide.Font = new Font("Segoe UI", 14F);
-            divide.Location = new Point(160, 180);
-            divide.Name = "divide";
-            divide.Size = new Size(36, 33);
-            divide.TabIndex = 2;
-            divide.Text = "/";
-            divide.UseVisualStyleBackColor = true;
+            this.divide.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.divide.Location = new System.Drawing.Point(213, 240);
+            this.divide.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.divide.Name = "divide";
+            this.divide.Size = new System.Drawing.Size(41, 44);
+            this.divide.TabIndex = 2;
+            this.divide.Text = "/";
+            this.divide.UseVisualStyleBackColor = true;
+            this.divide.Click += new System.EventHandler(this.divide_Click);
             // 
             // result
             // 
-            result.BackColor = SystemColors.ControlLightLight;
-            result.Font = new Font("Segoe UI", 14F);
-            result.Location = new Point(94, 241);
-            result.Name = "result";
-            result.Size = new Size(100, 23);
-            result.TabIndex = 3;
+            this.result.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.result.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.result.Location = new System.Drawing.Point(107, 321);
+            this.result.Name = "result";
+            this.result.Size = new System.Drawing.Size(174, 31);
+            this.result.TabIndex = 3;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(17, 32);
-            label1.Name = "label1";
-            label1.Size = new Size(60, 15);
-            label1.TabIndex = 4;
-            label1.Text = "Number 1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(19, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Number 1";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(17, 81);
-            label2.Name = "label2";
-            label2.Size = new Size(60, 15);
-            label2.TabIndex = 5;
-            label2.Text = "Number 2";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(19, 93);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(75, 20);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Number 2";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(17, 249);
-            label3.Name = "label3";
-            label3.Size = new Size(39, 15);
-            label3.TabIndex = 6;
-            label3.Text = "Result";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(45, 321);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 20);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Result";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(227, 290);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(result);
-            Controls.Add(divide);
-            Controls.Add(multiply);
-            Controls.Add(subtract);
-            Controls.Add(add);
-            Controls.Add(second);
-            Controls.Add(first);
-            Name = "Form1";
-            Text = "Form1";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(295, 387);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.result);
+            this.Controls.Add(this.divide);
+            this.Controls.Add(this.multiply);
+            this.Controls.Add(this.subtract);
+            this.Controls.Add(this.add);
+            this.Controls.Add(this.second);
+            this.Controls.Add(this.first);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
