@@ -11,13 +11,58 @@ namespace Calculator
         {
             try
             {
-                result.Text = $" = {
-                    (double.Parse(first.Text) + 
+                result.Text = $" = {(double.Parse(first.Text) +
                     double.Parse(second.Text))}";
-            } catch (FormatException)
+            }
+            catch (FormatException)
             {
                 result.Text = "Error";
             }
         }
+
+        private void subtract_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                result.Text = $" = {(double.Parse(first.Text) -
+                    double.Parse(second.Text))}";
+            }
+            catch (FormatException)
+            {
+                result.Text = "Error";
+            }
+
+        }
+
+        private void multiply_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                result.Text = $" = {(double.Parse(first.Text) *
+                    double.Parse(second.Text))}";
+            }
+            catch (FormatException)
+            {
+                result.Text = "Error";
+            }
+
+        }
+
+        private void divide_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                result.Text = $" = {(double.Parse(first.Text) /
+                    double.Parse(second.Text))}";
+            }
+            catch (FormatException)
+            {
+                result.Text = "Error";
+            }
+
+        }
     }
 }
+
+        
+    
