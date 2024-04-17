@@ -47,6 +47,7 @@
             first.Name = "first";
             first.Size = new Size(100, 32);
             first.TabIndex = 0;
+            first.KeyPress += first_KeyPress;
             // 
             // second
             // 
@@ -55,6 +56,7 @@
             second.Name = "second";
             second.Size = new Size(100, 32);
             second.TabIndex = 1;
+            second.KeyPress += first_KeyPress;
             // 
             // add
             // 

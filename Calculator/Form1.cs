@@ -11,12 +11,31 @@ namespace Calculator
         {
             try
             {
-                result.Text = $" = {
-                    (double.Parse(first.Text) + 
+                result.Text = $" = {(double.Parse(first.Text) +
                     double.Parse(second.Text))}";
-            } catch (FormatException)
+            }
+            catch (FormatException)
             {
                 result.Text = "Error";
+            }
+        }
+
+        private void first_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 8 ||
+                e.KeyChar >= '0'
+                && e.KeyChar <= '9')
+            {
+                e.Handled = false;
+            }
+            else if (e.KeyChar == '.' &&
+                !((TextBox)sender).Text.Contains('.'))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
             }
         }
     }
