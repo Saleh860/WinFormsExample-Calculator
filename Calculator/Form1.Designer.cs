@@ -63,7 +63,7 @@
             // add
             // 
             add.Font = new Font("Segoe UI", 14F);
-            add.Location = new Point(110, 163);
+            add.Location = new Point(108, 163);
             add.Margin = new Padding(3, 4, 3, 4);
             add.Name = "add";
             add.Size = new Size(41, 44);
