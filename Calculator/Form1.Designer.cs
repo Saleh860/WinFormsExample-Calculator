@@ -1,24 +1,24 @@
-﻿namespace Calculator
+﻿namespace stude_forms
 {
-    partial class Form1
-    {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+	partial class Form1
+	{
+		/// <summary>
+		///  Required designer variable.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+		/// <summary>
+		///  Clean up any resources being used.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing && (components != null))
+			{
+				components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
 
 		#region Windows Form Designer generated code
 
@@ -28,147 +28,291 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			first = new TextBox();
-			second = new TextBox();
-			add = new Button();
-			subtract = new Button();
-			multiply = new Button();
-			divide = new Button();
-			result = new Label();
-			label1 = new Label();
-			label2 = new Label();
-			label3 = new Label();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			button4 = new Button();
+			button5 = new Button();
+			button6 = new Button();
+			button3 = new Button();
+			button2 = new Button();
+			button1 = new Button();
+			buttonDot = new Button();
+			button0 = new Button();
+			button9 = new Button();
+			button8 = new Button();
+			button7 = new Button();
+			buttonPercent = new Button();
+			buttonNegative = new Button();
+			buttonCancel = new Button();
+			buttonmultipli = new Button();
+			buttonDivision = new Button();
+			buttonEqual = new Button();
+			buttonplas = new Button();
+			buttonSubtrat = new Button();
+			text = new TextBox();
 			SuspendLayout();
 			// 
-			// first
+			// button4
 			// 
-			first.Font = new Font("Segoe UI", 14F);
-			first.Location = new Point(110, 28);
-			first.Margin = new Padding(3, 4, 3, 4);
-			first.Name = "first";
-			first.Size = new Size(114, 39);
-			first.TabIndex = 0;
+			button4.BackColor = SystemColors.ControlDarkDark;
+			button4.ForeColor = SystemColors.ButtonHighlight;
+			button4.Location = new Point(83, 206);
+			button4.Name = "button4";
+			button4.Size = new Size(40, 40);
+			button4.TabIndex = 0;
+			button4.Text = "4";
+			button4.UseVisualStyleBackColor = false;
+			button4.Click += button4_Click;
 			// 
-			// second
+			// button5
 			// 
-			second.Font = new Font("Segoe UI", 14F);
-			second.Location = new Point(110, 93);
-			second.Margin = new Padding(3, 4, 3, 4);
-			second.Name = "second";
-			second.Size = new Size(114, 39);
-			second.TabIndex = 1;
+			button5.BackColor = SystemColors.ControlDarkDark;
+			button5.ForeColor = SystemColors.ButtonHighlight;
+			button5.Location = new Point(128, 206);
+			button5.Name = "button5";
+			button5.Size = new Size(40, 40);
+			button5.TabIndex = 1;
+			button5.Text = "5";
+			button5.UseVisualStyleBackColor = false;
+			button5.Click += button5_Click;
 			// 
-			// add
+			// button6
 			// 
-			add.BackColor = SystemColors.ActiveCaptionText;
-			add.Font = new Font("Segoe UI", 14F);
-			add.ForeColor = SystemColors.ButtonHighlight;
-			add.Location = new Point(67, 163);
-			add.Margin = new Padding(3, 4, 3, 4);
-			add.Name = "add";
-			add.Size = new Size(41, 44);
-			add.TabIndex = 2;
-			add.Text = "+";
-			add.UseVisualStyleBackColor = false;
-			add.Click += add_Click;
+			button6.BackColor = SystemColors.ControlDarkDark;
+			button6.ForeColor = SystemColors.ButtonHighlight;
+			button6.Location = new Point(171, 206);
+			button6.Name = "button6";
+			button6.Size = new Size(40, 40);
+			button6.TabIndex = 2;
+			button6.Text = "6";
+			button6.UseVisualStyleBackColor = false;
+			button6.Click += button6_Click;
 			// 
-			// subtract
+			// button3
 			// 
-			subtract.BackColor = SystemColors.ActiveCaptionText;
-			subtract.Font = new Font("Segoe UI", 14F);
-			subtract.ForeColor = SystemColors.ButtonHighlight;
-			subtract.Location = new Point(183, 163);
-			subtract.Margin = new Padding(3, 4, 3, 4);
-			subtract.Name = "subtract";
-			subtract.Size = new Size(41, 44);
-			subtract.TabIndex = 3;
-			subtract.Text = "-";
-			subtract.UseVisualStyleBackColor = false;
-			subtract.Click += subtract_Click;
+			button3.BackColor = SystemColors.ControlDarkDark;
+			button3.ForeColor = SystemColors.ButtonHighlight;
+			button3.Location = new Point(171, 256);
+			button3.Name = "button3";
+			button3.Size = new Size(40, 40);
+			button3.TabIndex = 5;
+			button3.Text = "3";
+			button3.UseVisualStyleBackColor = false;
+			button3.Click += button3_Click;
 			// 
-			// multiply
+			// button2
 			// 
-			multiply.BackColor = SystemColors.ActiveCaptionText;
-			multiply.Font = new Font("Segoe UI", 14F);
-			multiply.ForeColor = SystemColors.ControlLightLight;
-			multiply.Location = new Point(67, 240);
-			multiply.Margin = new Padding(3, 4, 3, 4);
-			multiply.Name = "multiply";
-			multiply.Size = new Size(41, 44);
-			multiply.TabIndex = 4;
-			multiply.Text = "X";
-			multiply.UseVisualStyleBackColor = false;
-			multiply.Click += milt;
+			button2.BackColor = SystemColors.ControlDarkDark;
+			button2.ForeColor = SystemColors.ButtonHighlight;
+			button2.Location = new Point(128, 256);
+			button2.Name = "button2";
+			button2.Size = new Size(40, 40);
+			button2.TabIndex = 4;
+			button2.Text = "2";
+			button2.UseVisualStyleBackColor = false;
+			button2.Click += button2_Click;
 			// 
-			// divide
+			// button1
 			// 
-			divide.BackColor = SystemColors.ActiveCaptionText;
-			divide.Font = new Font("Segoe UI", 14F);
-			divide.ForeColor = SystemColors.ButtonHighlight;
-			divide.Location = new Point(183, 240);
-			divide.Margin = new Padding(3, 4, 3, 4);
-			divide.Name = "divide";
-			divide.Size = new Size(41, 44);
-			divide.TabIndex = 5;
-			divide.Text = "/";
-			divide.UseVisualStyleBackColor = false;
-			divide.Click += devid;
+			button1.BackColor = SystemColors.ControlDarkDark;
+			button1.ForeColor = SystemColors.ButtonHighlight;
+			button1.Location = new Point(83, 256);
+			button1.Name = "button1";
+			button1.Size = new Size(40, 40);
+			button1.TabIndex = 3;
+			button1.Text = "1";
+			button1.UseVisualStyleBackColor = false;
+			button1.Click += button1_Click;
 			// 
-			// result
+			// buttonDot
 			// 
-			result.BackColor = SystemColors.Highlight;
-			result.BorderStyle = BorderStyle.FixedSingle;
-			result.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			result.ForeColor = Color.Cornsilk;
-			result.Location = new Point(96, 315);
-			result.Name = "result";
-			result.Size = new Size(128, 44);
-			result.TabIndex = 3;
+			buttonDot.BackColor = SystemColors.ControlDarkDark;
+			buttonDot.ForeColor = SystemColors.ButtonHighlight;
+			buttonDot.Location = new Point(171, 305);
+			buttonDot.Name = "buttonDot";
+			buttonDot.Size = new Size(40, 40);
+			buttonDot.TabIndex = 8;
+			buttonDot.Text = ".";
+			buttonDot.UseVisualStyleBackColor = false;
+			buttonDot.Click += buttonDot_Click;
 			// 
-			// label1
+			// button0
 			// 
-			label1.AutoSize = true;
-			label1.Location = new Point(19, 43);
-			label1.Name = "label1";
-			label1.Size = new Size(75, 20);
-			label1.TabIndex = 4;
-			label1.Text = "Number 1";
+			button0.BackColor = SystemColors.ControlDarkDark;
+			button0.ForeColor = SystemColors.ButtonHighlight;
+			button0.Location = new Point(83, 305);
+			button0.Name = "button0";
+			button0.Size = new Size(85, 40);
+			button0.TabIndex = 6;
+			button0.Text = "0";
+			button0.UseVisualStyleBackColor = false;
+			button0.Click += button0_Click;
 			// 
-			// label2
+			// button9
 			// 
-			label2.AutoSize = true;
-			label2.Location = new Point(19, 108);
-			label2.Name = "label2";
-			label2.Size = new Size(75, 20);
-			label2.TabIndex = 5;
-			label2.Text = "Number 2";
+			button9.BackColor = SystemColors.ControlDarkDark;
+			button9.ForeColor = SystemColors.ButtonHighlight;
+			button9.Location = new Point(171, 161);
+			button9.Name = "button9";
+			button9.Size = new Size(40, 40);
+			button9.TabIndex = 14;
+			button9.Text = "9";
+			button9.UseVisualStyleBackColor = false;
+			button9.Click += button9_Click;
 			// 
-			// label3
+			// button8
 			// 
-			label3.AutoSize = true;
-			label3.Location = new Point(19, 332);
-			label3.Name = "label3";
-			label3.Size = new Size(49, 20);
-			label3.TabIndex = 6;
-			label3.Text = "Result";
+			button8.BackColor = SystemColors.ControlDarkDark;
+			button8.ForeColor = SystemColors.ButtonHighlight;
+			button8.Location = new Point(128, 161);
+			button8.Name = "button8";
+			button8.Size = new Size(40, 40);
+			button8.TabIndex = 13;
+			button8.Text = "8";
+			button8.UseVisualStyleBackColor = false;
+			button8.Click += button8_Click;
+			// 
+			// button7
+			// 
+			button7.BackColor = SystemColors.ControlDarkDark;
+			button7.ForeColor = SystemColors.ButtonHighlight;
+			button7.Location = new Point(83, 161);
+			button7.Name = "button7";
+			button7.Size = new Size(40, 40);
+			button7.TabIndex = 12;
+			button7.Text = "7";
+			button7.UseVisualStyleBackColor = false;
+			button7.Click += button7_Click;
+			// 
+			// buttonPercent
+			// 
+			buttonPercent.BackColor = SystemColors.AppWorkspace;
+			buttonPercent.ForeColor = SystemColors.ActiveCaptionText;
+			buttonPercent.Location = new Point(171, 111);
+			buttonPercent.Name = "buttonPercent";
+			buttonPercent.Size = new Size(40, 40);
+			buttonPercent.TabIndex = 11;
+			buttonPercent.Text = "%";
+			buttonPercent.UseVisualStyleBackColor = false;
+			buttonPercent.Click += buttonPercent_Click;
+			// 
+			// buttonNegative
+			// 
+			buttonNegative.BackColor = SystemColors.AppWorkspace;
+			buttonNegative.ForeColor = SystemColors.ActiveCaptionText;
+			buttonNegative.Location = new Point(128, 111);
+			buttonNegative.Name = "buttonNegative";
+			buttonNegative.Size = new Size(40, 40);
+			buttonNegative.TabIndex = 10;
+			buttonNegative.Text = "+/-";
+			buttonNegative.UseVisualStyleBackColor = false;
+			buttonNegative.Click += buttonNegative_Click;
+			// 
+			// buttonCancel
+			// 
+			buttonCancel.BackColor = SystemColors.AppWorkspace;
+			buttonCancel.ForeColor = SystemColors.ActiveCaptionText;
+			buttonCancel.Location = new Point(83, 111);
+			buttonCancel.Name = "buttonCancel";
+			buttonCancel.Size = new Size(40, 40);
+			buttonCancel.TabIndex = 9;
+			buttonCancel.Text = "Ac";
+			buttonCancel.UseVisualStyleBackColor = false;
+			buttonCancel.Click += buttonCancel_Click;
+			// 
+			// buttonmultipli
+			// 
+			buttonmultipli.BackColor = Color.DarkOrange;
+			buttonmultipli.ForeColor = SystemColors.ButtonHighlight;
+			buttonmultipli.Location = new Point(217, 161);
+			buttonmultipli.Name = "buttonmultipli";
+			buttonmultipli.Size = new Size(40, 40);
+			buttonmultipli.TabIndex = 19;
+			buttonmultipli.Text = "X";
+			buttonmultipli.UseVisualStyleBackColor = false;
+			buttonmultipli.Click += buttonmultipli_Click;
+			// 
+			// buttonDivision
+			// 
+			buttonDivision.BackColor = Color.DarkOrange;
+			buttonDivision.ForeColor = SystemColors.ButtonHighlight;
+			buttonDivision.Image = (Image)resources.GetObject("buttonDivision.Image");
+			buttonDivision.Location = new Point(217, 111);
+			buttonDivision.Name = "buttonDivision";
+			buttonDivision.Padding = new Padding(2, 0, 0, 0);
+			buttonDivision.Size = new Size(40, 40);
+			buttonDivision.TabIndex = 18;
+			buttonDivision.UseVisualStyleBackColor = false;
+			buttonDivision.Click += buttonDivision_Click;
+			// 
+			// buttonEqual
+			// 
+			buttonEqual.BackColor = Color.DarkOrange;
+			buttonEqual.ForeColor = SystemColors.ButtonHighlight;
+			buttonEqual.Location = new Point(217, 305);
+			buttonEqual.Name = "buttonEqual";
+			buttonEqual.Size = new Size(40, 40);
+			buttonEqual.TabIndex = 17;
+			buttonEqual.Text = "=";
+			buttonEqual.UseVisualStyleBackColor = false;
+			buttonEqual.Click += buttonEqual_Click;
+			// 
+			// buttonplas
+			// 
+			buttonplas.BackColor = Color.DarkOrange;
+			buttonplas.ForeColor = SystemColors.ButtonHighlight;
+			buttonplas.Location = new Point(217, 256);
+			buttonplas.Name = "buttonplas";
+			buttonplas.Size = new Size(40, 40);
+			buttonplas.TabIndex = 16;
+			buttonplas.Text = "+";
+			buttonplas.UseVisualStyleBackColor = false;
+			buttonplas.Click += buttonplas_Click;
+			// 
+			// buttonSubtrat
+			// 
+			buttonSubtrat.BackColor = Color.DarkOrange;
+			buttonSubtrat.ForeColor = SystemColors.ButtonHighlight;
+			buttonSubtrat.Location = new Point(217, 206);
+			buttonSubtrat.Name = "buttonSubtrat";
+			buttonSubtrat.Size = new Size(40, 40);
+			buttonSubtrat.TabIndex = 15;
+			buttonSubtrat.Text = "-";
+			buttonSubtrat.UseVisualStyleBackColor = false;
+			buttonSubtrat.Click += buttonSubtrat_Click;
+			// 
+			// text
+			// 
+			text.BackColor = Color.White;
+			text.Location = new Point(83, 78);
+			text.Name = "text";
+			text.Size = new Size(174, 27);
+			text.TabIndex = 20;
 			// 
 			// Form1
 			// 
 			AutoScaleDimensions = new SizeF(8F, 20F);
 			AutoScaleMode = AutoScaleMode.Font;
-			BackColor = SystemColors.Highlight;
-			ClientSize = new Size(259, 387);
-			Controls.Add(label3);
-			Controls.Add(label2);
-			Controls.Add(label1);
-			Controls.Add(result);
-			Controls.Add(divide);
-			Controls.Add(multiply);
-			Controls.Add(subtract);
-			Controls.Add(add);
-			Controls.Add(second);
-			Controls.Add(first);
-			Margin = new Padding(3, 4, 3, 4);
+			ClientSize = new Size(360, 384);
+			Controls.Add(text);
+			Controls.Add(buttonmultipli);
+			Controls.Add(buttonDivision);
+			Controls.Add(buttonEqual);
+			Controls.Add(buttonplas);
+			Controls.Add(buttonSubtrat);
+			Controls.Add(button9);
+			Controls.Add(button8);
+			Controls.Add(button7);
+			Controls.Add(buttonPercent);
+			Controls.Add(buttonNegative);
+			Controls.Add(buttonCancel);
+			Controls.Add(buttonDot);
+			Controls.Add(button0);
+			Controls.Add(button3);
+			Controls.Add(button2);
+			Controls.Add(button1);
+			Controls.Add(button6);
+			Controls.Add(button5);
+			Controls.Add(button4);
 			Name = "Form1";
 			Text = "Form1";
 			ResumeLayout(false);
@@ -177,15 +321,25 @@
 
 		#endregion
 
-		private TextBox first;
-        private TextBox second;
-        private Button add;
-        private Button subtract;
-        private Button multiply;
-        private Button divide;
-        private Label result;
-        private Label label1;
-        private Label label2;
-        private Label label3;
+		private Button button4;
+		private Button button5;
+		private Button button6;
+		private Button button3;
+		private Button button2;
+		private Button button1;
+		private Button buttonDot;
+		private Button button0;
+		private Button button9;
+		private Button button8;
+		private Button button7;
+		private Button buttonPercent;
+		private Button buttonNegative;
+		private Button buttonCancel;
+		private Button buttonmultipli;
+		private Button buttonDivision;
+		private Button buttonEqual;
+		private Button buttonplas;
+		private Button buttonSubtrat;
+		private TextBox text;
 	}
 }
