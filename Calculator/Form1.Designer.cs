@@ -87,7 +87,7 @@
             // multiply
             // 
             multiply.Font = new Font("Segoe UI", 14F);
-            multiply.Location = new Point(110, 240);
+            multiply.Location = new Point(109, 240);
             multiply.Margin = new Padding(3, 4, 3, 4);
             multiply.Name = "multiply";
             multiply.Size = new Size(41, 44);
