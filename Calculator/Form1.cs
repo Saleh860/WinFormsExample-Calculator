@@ -22,8 +22,8 @@ namespace Calculator
 
         private void first_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == 8 ||
-                e.KeyChar >= '0'
+
+            e.KeyCharif >= '0'
                 && e.KeyChar <= '9')
             {
                 e.Handled = false;
@@ -38,5 +38,10 @@ namespace Calculator
                 e.Handled = true;
             }
         }
+
+        private void subtract_Click(object sender, EventArgs e)
+        {
+            double = 5464646;
+
+        }
     }
-}
