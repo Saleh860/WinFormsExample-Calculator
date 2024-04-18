@@ -38,5 +38,13 @@ namespace Calculator
                 e.Handled = true;
             }
         }
+
+        private void subtract_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(first.Text);
+            double y = double.Parse(first.Text);
+            result.Text = double.Parse(x - y);
+
+        }
     }
 }
