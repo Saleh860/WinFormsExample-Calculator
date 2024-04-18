@@ -38,5 +38,49 @@ namespace Calculator
                 e.Handled = true;
             }
         }
+
+        private void subtract_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                result.Text = $" = {(double.Parse(first.Text) -
+                    double.Parse(second.Text))}";
+            }
+            catch (FormatException)
+            {
+                result.Text = "Error";
+            }
+        }
+
+        private void multiply_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                result.Text = $" = {(double.Parse(first.Text) *
+                    double.Parse(second.Text))}";
+            }
+            catch (FormatException)
+            {
+                result.Text = "Error";
+            }
+        }
+
+        private void divide_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                result.Text = $" = {(double.Parse(first.Text) /
+                    double.Parse(second.Text))}";
+            }
+            catch (FormatException)
+            {
+                result.Text = "Error";
+            }
+        }
+
+        private void first_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
