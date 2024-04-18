@@ -13,7 +13,7 @@ namespace Calculator
             try
             {
                 result.Text = $" = {(double.Parse(first.Text) +
-                    double.Parse(second.Text))}";
+                    double.Parse(second.Text))}";   
             }
             catch (FormatException)
             {
