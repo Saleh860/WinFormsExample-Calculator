@@ -60,45 +60,49 @@
             // 
             // add
             // 
+            add.BackColor = Color.Blue;
             add.Font = new Font("Segoe UI", 14F);
             add.Location = new Point(96, 122);
             add.Name = "add";
             add.Size = new Size(36, 33);
             add.TabIndex = 2;
             add.Text = "+";
-            add.UseVisualStyleBackColor = true;
+            add.UseVisualStyleBackColor = false;
             add.Click += add_Click;
             // 
             // subtract
             // 
+            subtract.BackColor = Color.Blue;
             subtract.Font = new Font("Segoe UI", 14F);
             subtract.Location = new Point(160, 122);
             subtract.Name = "subtract";
             subtract.Size = new Size(36, 33);
             subtract.TabIndex = 2;
             subtract.Text = "-";
-            subtract.UseVisualStyleBackColor = true;
+            subtract.UseVisualStyleBackColor = false;
             subtract.Click += subtract_Click;
             // 
             // multiply
             // 
+            multiply.BackColor = Color.Blue;
             multiply.Font = new Font("Segoe UI", 14F);
             multiply.Location = new Point(96, 180);
             multiply.Name = "multiply";
             multiply.Size = new Size(36, 33);
             multiply.TabIndex = 2;
             multiply.Text = "X";
-            multiply.UseVisualStyleBackColor = true;
+            multiply.UseVisualStyleBackColor = false;
             // 
             // divide
             // 
+            divide.BackColor = Color.Blue;
             divide.Font = new Font("Segoe UI", 14F);
             divide.Location = new Point(160, 180);
             divide.Name = "divide";
             divide.Size = new Size(36, 33);
             divide.TabIndex = 2;
             divide.Text = "/";
-            divide.UseVisualStyleBackColor = true;
+            divide.UseVisualStyleBackColor = false;
             // 
             // result
             // 
