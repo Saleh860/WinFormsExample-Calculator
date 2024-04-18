@@ -38,5 +38,13 @@ namespace Calculator
                 e.Handled = true;
             }
         }
+
+        private void subtract_Click(object sender, EventArgs e)
+        {
+            result.Text = (
+                Convert.ToDouble(first.Text)
+                - Convert.ToDouble(second.Text))
+                .ToString();
+        }
     }
 }

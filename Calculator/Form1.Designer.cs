@@ -78,6 +78,7 @@
             subtract.TabIndex = 2;
             subtract.Text = "-";
             subtract.UseVisualStyleBackColor = true;
+            subtract.Click += subtract_Click;
             // 
             // multiply
             // 
