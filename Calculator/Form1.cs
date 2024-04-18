@@ -38,5 +38,24 @@ namespace Calculator
                 e.Handled = true;
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if (e.KeyChar == 8 ||
+               e.KeyChar >= '0'
+               && e.KeyChar <= '9')
+            {
+                e.Handled = false;
+            }
+            else if (e.KeyChar == '.' &&
+                !((TextBox)sender).Text.Contains('.'))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
