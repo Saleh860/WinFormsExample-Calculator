@@ -38,5 +38,26 @@ namespace Calculator
                 e.Handled = true;
             }
         }
+
+        private void subtract_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(first.Text);
+            double y = double.Parse(second.Text);
+            result.Text = (x - y).ToString();
+        }
+
+        private void multiply_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(first.Text);
+            double y = double.Parse(second.Text);
+            result.Text = (x * y).ToString();
+        }
+
+        private void divide_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(first.Text);
+            double y = double.Parse(second.Text);
+            result.Text = (x / y).ToString();
+        }
     }
 }
