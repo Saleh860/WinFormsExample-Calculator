@@ -17,7 +17,7 @@ namespace Calculator
             }
             catch (FormatException)
             {
-                result.Text = "Error";
+                result.Text = "Error ";
             }
         }
 
