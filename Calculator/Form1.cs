@@ -70,6 +70,7 @@ namespace Calculator
             result.Text = $"= {string.Format("{0:0.00}", x / y)}";
 
         }
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
