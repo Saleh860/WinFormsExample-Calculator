@@ -61,7 +61,7 @@
             // add
             // 
             add.Font = new Font("Segoe UI", 14F);
-            add.Location = new Point(96, 122);
+            add.Location = new Point(160, 122);
             add.Name = "add";
             add.Size = new Size(36, 33);
             add.TabIndex = 2;
@@ -72,7 +72,7 @@
             // subtract
             // 
             subtract.Font = new Font("Segoe UI", 14F);
-            subtract.Location = new Point(160, 122);
+            subtract.Location = new Point(96, 122);
             subtract.Name = "subtract";
             subtract.Size = new Size(36, 33);
             subtract.TabIndex = 2;
