@@ -47,5 +47,33 @@ namespace Calculator
                 - Convert.ToDouble(second.Text))
                 .ToString();
         }
+
+        private void multiply_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double x = double.Parse(first.Text);
+                double y = double.Parse(second.Text);
+                result.Text = $"= {string.Format("{0:0.00}", x * y)}";
+            }
+            catch (FormatException)
+            {
+                result.Text = "Error";
+            }
+
+        }
+
+        private void divide_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(first.Text);
+            double y = double.Parse(second.Text);
+            result.Text = $"= {string.Format("{0:0.00}", x / y)}";
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
