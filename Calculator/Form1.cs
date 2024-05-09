@@ -14,6 +14,7 @@ namespace Calculator
             {
                 result.Text = $" = {(double.Parse(first.Text) +
                     double.Parse(second.Text))}";
+                //bjhj
             }
             catch (FormatException)
             {
